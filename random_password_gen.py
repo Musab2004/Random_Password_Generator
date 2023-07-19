@@ -1,6 +1,7 @@
 import random
 import sys
 
+
 def check_length(user_input):
     if user_input.isdigit() and (len(user_input) >= 1 and len(user_input) <= 3):
         return int(user_input)
